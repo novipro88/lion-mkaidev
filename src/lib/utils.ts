@@ -43,6 +43,6 @@ export function constructMetadata({
       creator: '@project.pro',
     },
     icons,
-    metadataBase: new URL("https://lion-mkaidev.vercel.app/")
+    metadataBase: new URL("https://lionart-mkaidev.vercel.app/")
   }
 }
