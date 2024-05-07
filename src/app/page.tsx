@@ -14,8 +14,9 @@ export default function Home() {
           <div className="col-span-2 px-6 lg:px-0 lg:pt-4">
             <div className="relative mx-auto text-center lg:text-left flex flex-col items-center lg:items-start">
               <div className="absolute w-28 left-0 -top-20 hidden lg:block">
+                {/* i forgot this div right here in the video, it's purely visual gradient and looks nice */}
                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t via-slate-50/50 from-slate-50 h-28" />
-                <img src="/lion1.png" className="w-full" alt="lion-1" />
+                <img src="/lion1.png" className="w-full" alt="" />
               </div>
               <h1 className="relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl">
                 Your Image on a{" "}
@@ -25,8 +26,8 @@ export default function Home() {
               <p className="mt-8 text-lg lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap">
                 Capture your favorite memories with your own,{" "}
                 <span className="font-semibold">one-of-one</span> phone case.
-                Lion allows you to protect your memories, not just your phone
-                case.
+                Lion<span className="text-rose-600 font-semibold">Art</span>{" "}
+                allows you to protect your memories, not just your phone case.
               </p>
 
               <ul className="mt-8 space-y-2 text-left font-medium flex flex-col items-center sm:items-start">
@@ -96,7 +97,7 @@ export default function Home() {
             <div className="relative md:max-w-xl">
               <img
                 src="/your-image.png"
-                className="absolute w-40 lg:w-52 left-52 -top-20 select-none hidden sm:block lg:hidden xl:block"
+                className="absolute w-40 lg:w-50 left-52 -top-20 select-none hidden sm:block lg:hidden xl:block"
                 alt=""
               />
               <img
@@ -122,11 +123,7 @@ export default function Home() {
               </span>{" "}
               say
             </h2>
-            <img
-              src="/lion2.png"
-              className="w-24 order-0 lg:order-2"
-              alt="lion-2"
-            />
+            <img src="/lion2.png" className="w-24 order-0 lg:order-2" alt="" />
           </div>
 
           <div className="mx-auto grid max-w-2xl grid-cols-1 px-4 lg:mx-0 lg:max-w-none lg:grid-cols-2 gap-y-16">
@@ -140,13 +137,13 @@ export default function Home() {
               </div>
               <div className="text-lg leading-8">
                 <p>
-                  &quot;The case feels durable and I even got a compliment on
-                  the design. Had the case for two and a half months now and{" "}
-                  <span className="p-0.5 bg-slate-800 text-white">
+                  "The case feels durable and I even got a compliment on the
+                  design. Had the case for two and a half months now and{" "}
+                  <span className="p-0.5 bg-rose-800 text-white">
                     the image is super clear
                   </span>
                   , on the case I had before, the image started fading into
-                  yellow-ish color after a couple weeks. Love it.&quot;
+                  yellow-ish color after a couple weeks. Love it."
                 </p>
               </div>
               <div className="flex gap-4 mt-2">
@@ -176,24 +173,24 @@ export default function Home() {
               </div>
               <div className="text-lg leading-8">
                 <p>
-                  &quot;I usually keep my phone together with my keys in my
-                  pocket and that led to some pretty heavy scratchmarks on all
-                  of my last phone cases. This one, besides a barely noticeable
+                  "I usually keep my phone together with my keys in my pocket
+                  and that led to some pretty heavy scratchmarks on all of my
+                  last phone cases. This one, besides a barely noticeable
                   scratch on the corner,{" "}
-                  <span className="p-0.5 bg-slate-800 text-white">
+                  <span className="p-0.5 bg-rose-800 text-white">
                     looks brand new after about half a year
                   </span>
-                  . I dig it.&quot;
+                  . I dig it."
                 </p>
               </div>
               <div className="flex gap-4 mt-2">
                 <img
                   className="rounded-full h-12 w-12 object-cover"
-                  src="/users/user-4.jpg"
+                  src="/users/user-2.png"
                   alt="user"
                 />
                 <div className="flex flex-col">
-                  <p className="font-semibold">Josh</p>
+                  <p className="font-semibold">Nita</p>
                   <div className="flex gap-1.5 items-center text-zinc-600">
                     <Check className="h-4 w-4 stroke-[3px] text-rose-600" />
                     <p className="text-sm">Verified Purchase</p>

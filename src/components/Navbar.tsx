@@ -38,7 +38,7 @@ const Navbar = async () => {
                       variant: "ghost",
                     })}
                   >
-                    Dashboard 🔐
+                    Dashboard ✨
                   </Link>
                 ) : null}
                 <Link
@@ -75,6 +75,7 @@ const Navbar = async () => {
                 </Link>
 
                 <div className="h-8 w-px bg-zinc-200 hidden sm:block" />
+
                 <Link
                   href="/configure/upload"
                   className={buttonVariants({

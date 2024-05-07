@@ -15,7 +15,7 @@ If you want to learn how to create it please follow below tutorial👇: <br />
 
 ---
 
-## Images of The Portfolio Website:
+## Images of The Website:
 
 ![Nextjs create custom high-quality phone cases](https://utfs.io/f/8d84668a-d193-4ff9-bf49-e6425458569c-nm33wo.png) <br />
 
